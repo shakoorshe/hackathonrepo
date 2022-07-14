@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: purple;
+    font-weight: bold;
+
+}
+p {
+    color: purple;
+    font-weight: bold;
+}
+img {
+    width: 500px;
+    height: 500px;
+}

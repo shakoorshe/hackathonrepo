@@ -1,0 +1,22 @@
+.card{
+  outline-color: purple;  
+  background-color: yellow;
+}
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: purple;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+p {
+    color: purple;
+    font-weight: bold;
+    font-size: 18px;
+}
+img {
+    width: 500px;
+    height: 500px;
+}

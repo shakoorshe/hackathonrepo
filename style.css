@@ -1,3 +1,7 @@
+.card{
+  outline-color: purple;  
+  background-color: yellow;
+}
 body {
     background-color: lightblue;
 }

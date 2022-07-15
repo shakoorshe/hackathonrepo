@@ -78,3 +78,14 @@ padding-left: 175px;
     height: 300px;
     padding-left: 150px;
 }
+
+#BasketballInteractive{
+    position: fixed;
+    bottom: 0%;
+    right: 50%;
+}
+
+#BasketballImageInteractive{
+    height: 80%;
+    width: 80%;
+}

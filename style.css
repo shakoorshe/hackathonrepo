@@ -79,6 +79,17 @@
       padding-left: 150px;
   }
   
+  #BasketballInteractive{
+      position: fixed;
+      bottom: 0%;
+      right: 50%;
+  }
+  
+  #BasketballImageInteractive{
+      height: 80%;
+      width: 80%;
+  }
+  
   #shaq-card{
       margin-left: 200px;
       margin-right: 200px;
@@ -95,4 +106,9 @@
   #magic-card{
       margin-top: 40px;
       margin-bottom: 40px;
+  }
+  
+  #west{
+      float: right;
+      width: 67%;
   }

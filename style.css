@@ -108,7 +108,25 @@ padding-left: 175px;
     margin-bottom: 40px;
 }
 
+#home-img{
+    padding-left: 30px;
+    width: 600px;
+
+}
+
+#body-home{
+background-color: rgb(240, 240, 145);
+}
+
 #west{
     float: right;
-    width: 67%;
+    width: 60%;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(89, 8, 89);
+}
+
+#points{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

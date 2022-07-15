@@ -54,24 +54,25 @@
     let ScorePoints = 0
     let Reverse = false;
     let Basketball = $("#BasketballInteractive");
-    let Delay = 1000;
+    let Delay = 500;
+    let Position = 100;
 
         // Uses setInterval function from "https://developer.mozilla.org/en-US/docs/Web/API/setInterval" to continuously repeat the function 
-        // setInterval(function(){
-        //     // Sets Delay to be random so that the ball is thrown at a random time, making the game exciting
-        //     let Delay = Math.floor(Math.random() * 900 + 50);
-        //     console.log(Delay);
-        // }, 1000);
+         setInterval(function(){
+             // Sets Position to be random so that the ball is thrown at a random spot
+             Position = Math.floor(Math.random() * 100);
+             console.log(Position);
+         }, 500);
         
         // Uses setInterval function from "https://developer.mozilla.org/en-US/docs/Web/API/setInterval" to continuously repeat the function 
         setInterval(function() {
         // If reverse is true, moves the Ball to the right
         if (Reverse === false){
-            Basketball.animate({right: "0%"}, "normal");
+            Basketball.animate({right: Position + "%"}, "normal");
         }
         // If reverse is false, moves the ball to the left, off the screen
         else{
-            Basketball.animate({right: "100%"}, "normal");
+            Basketball.animate({right: Position + "%"}, "normal");
         }
         // Switches the value of reverse each time the function is run
         Reverse = !Reverse;

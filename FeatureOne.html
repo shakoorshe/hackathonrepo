@@ -43,6 +43,7 @@
         <h1>
             Click on the Basketball to Score!
         </h1>
+        <div id="points">Points = 0</div>
     </div>
 
     <div id="points">Points=0</div>
@@ -56,15 +57,15 @@
     let ScorePoints = 0
     let Reverse = false;
     let Basketball = $("#BasketballInteractive");
-    let Delay = 1000;
+    let delay = 1000;
 
         // Uses setInterval function from "https://developer.mozilla.org/en-US/docs/Web/API/setInterval" to continuously repeat the function 
-        // setInterval(function(){
-        //     // Sets Delay to be random so that the ball is thrown at a random time, making the game exciting
-        //     let Delay = Math.floor(Math.random() * 900 + 50);
-        //     console.log(Delay);
-        // }, 1000);
-        
+        function makeDelay(){
+        // Sets Delay to be random so that the ball is thrown at a random time, making the game exciting
+            let Delay = Math.floor(Math.random() * 900 + 50);
+            console.log(Delay);
+            return Delay;
+        }
         // Uses setInterval function from "https://developer.mozilla.org/en-US/docs/Web/API/setInterval" to continuously repeat the function 
         setInterval(function() {
         // If reverse is true, moves the Ball to the right
@@ -77,7 +78,7 @@
         }
         // Switches the value of reverse each time the function is run
         Reverse = !Reverse;
-        }, Delay);
+        }, makeDelay());
 
 
         //Calculates score each time the user clicked

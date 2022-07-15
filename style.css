@@ -103,6 +103,10 @@ padding-left: 175px;
     margin-top: 40px;
 }
 
+
+img{
+    object-fit: cover;
+}
 #magic-card{
     margin-top: 40px;
     margin-bottom: 40px;

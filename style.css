@@ -89,3 +89,21 @@ padding-left: 175px;
     height: 80%;
     width: 80%;
 }
+
+#shaq-card{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#kobe-card{
+    margin-left: 33px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#magic-card{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

@@ -107,3 +107,8 @@ padding-left: 175px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+#west{
+    float: right;
+    width: 67%;
+}
